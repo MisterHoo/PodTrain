@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ProgressViewHUD_Example' do
+  pod 'ProgressViewHUD', :path => '../'
+
+  target 'ProgressViewHUD_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
