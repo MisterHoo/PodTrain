@@ -1,0 +1,22 @@
+{
+  "name": "ProgressViewHUD",
+  "version": "0.1.0",
+  "summary": "A short description of ProgressViewHUD.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/MisterHoo/ProgressViewHUD",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "MisterHoo": "yosu4.hoo@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/MisterHoo/ProgressViewHUD.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ProgressViewHUD/Classes/**/*"
+}

@@ -1,0 +1,6 @@
+framework module ProgressViewHUD {
+  umbrella header "ProgressViewHUD-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - ProgressViewHUD (0.1.0)
+
+DEPENDENCIES:
+  - ProgressViewHUD (from `../`)
+
+EXTERNAL SOURCES:
+  ProgressViewHUD:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ProgressViewHUD: ec176e7900c44c2ef9a1996d146ad1f611257df5
+
+PODFILE CHECKSUM: 07c2b42e47664a650d55953758a02ce9241d2452
+
+COCOAPODS: 1.5.3
