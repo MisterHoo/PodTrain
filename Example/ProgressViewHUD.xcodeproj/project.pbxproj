@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		08544648A13E31C4E2F1548D /* Pods-ProgressViewHUD_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProgressViewHUD_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProgressViewHUD_Example/Pods-ProgressViewHUD_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1B751B00681C367E236D8F8E /* ProgressViewHUD.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ProgressViewHUD.podspec; path = ../ProgressViewHUD.podspec; sourceTree = "<group>"; };
+		1B751B00681C367E236D8F8E /* ProgressViewHUD.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ProgressViewHUD.podspec; path = ../ProgressViewHUD.podspec; sourceTree = "<group>"; };
 		2A8092361EBED3E52E70B61B /* Pods_ProgressViewHUD_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProgressViewHUD_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* ProgressViewHUD_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgressViewHUD_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,9 +43,9 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		757F12D0B2142FCB641E22B8 /* Pods-ProgressViewHUD_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProgressViewHUD_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProgressViewHUD_Example/Pods-ProgressViewHUD_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		85FFA7AB18DE3583CD898A14 /* Pods-ProgressViewHUD_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProgressViewHUD_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProgressViewHUD_Tests/Pods-ProgressViewHUD_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		AF3F3C9BBA5FF10916691A48 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		AF3F3C9BBA5FF10916691A48 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C4A51E008C3A9E220063991A /* Pods-ProgressViewHUD_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProgressViewHUD_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProgressViewHUD_Tests/Pods-ProgressViewHUD_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D196A21D40431A20B8280E1C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D196A21D40431A20B8280E1C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D1F7A1F1286CD3B6ED09D67E /* Pods_ProgressViewHUD_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProgressViewHUD_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -212,6 +212,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 3ZHR6JDHY4;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -469,6 +470,7 @@
 			baseConfigurationReference = 757F12D0B2142FCB641E22B8 /* Pods-ProgressViewHUD_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3ZHR6JDHY4;
 				INFOPLIST_FILE = ProgressViewHUD/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -484,6 +486,7 @@
 			baseConfigurationReference = 08544648A13E31C4E2F1548D /* Pods-ProgressViewHUD_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3ZHR6JDHY4;
 				INFOPLIST_FILE = ProgressViewHUD/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
