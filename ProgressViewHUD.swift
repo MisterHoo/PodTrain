@@ -7,11 +7,17 @@
 
 import Foundation
 
-public class ProgressHUD : UIViewController{
+public class lingkaranMuter{
+    let view : UIView
     
-    func show(progressValue : Float, maxValue : Float){
-        let percentage = progressValue / maxValue * 100
-        let radius =  percentage / 100 * 360
+    private init(view: UIView) {
+        self.view = view
+    }
+    
+    public func show(progressValue : Float, maxValue : Float){
+        
+        let percentage = progressValue / maxValue
+        let radius =  percentage / 100 * 2
         
         let backgroundShapeLayer = CAShapeLayer()
         let center = view.center
@@ -25,18 +31,19 @@ public class ProgressHUD : UIViewController{
         view.layer.addSublayer(backgroundShapeLayer)
         
         let shapeLayer = CAShapeLayer()
-        
-        
-        let circularPath = UIBezierPath(arcCenter: center, radius: 100, startAngle: 0, endAngle: 0.5 * CGFloat.pi, clockwise: true)
+
+        let circularPath = UIBezierPath(arcCenter: center, radius: 100, startAngle: 0, endAngle: CGFloat(radius) * CGFloat.pi, clockwise: true)
         
         shapeLayer.path = circularPath.cgPath
         
         shapeLayer.strokeColor = UIColor.red.cgColor
         shapeLayer.lineWidth = 10
-        //shapeLayer.strokeEnd = 0
+        //shapeLayer.strokeEnd = CGFloat(percentage)
         shapeLayer.fillColor = UIColor.clear.cgColor
         
         view.layer.addSublayer(shapeLayer)
+        
+        //view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(handleTap)))
         
     }
     

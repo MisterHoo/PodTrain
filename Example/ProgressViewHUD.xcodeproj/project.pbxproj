@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		08544648A13E31C4E2F1548D /* Pods-ProgressViewHUD_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProgressViewHUD_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProgressViewHUD_Example/Pods-ProgressViewHUD_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1B751B00681C367E236D8F8E /* ProgressViewHUD.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ProgressViewHUD.podspec; path = ../ProgressViewHUD.podspec; sourceTree = "<group>"; };
+		1B751B00681C367E236D8F8E /* ProgressViewHUD.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ProgressViewHUD.podspec; path = ../ProgressViewHUD.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2A8092361EBED3E52E70B61B /* Pods_ProgressViewHUD_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProgressViewHUD_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* ProgressViewHUD_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgressViewHUD_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
